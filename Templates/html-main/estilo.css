@@ -1,0 +1,27 @@
+.nombre, .codigo{
+    font-size-adjust: inherit;
+    font-family: "Chiller";
+    font-variant: small-caps;
+    color: azure;
+    font-size: 70px;
+}
+
+.boton{
+    font-family: "Taoma";
+    font-size: larger;
+    font-style: initial;
+    font-size: 50px;
+}
+
+.body1{
+    background-color: darkgreen;
+    background-image: linear-gradient(200deg, darkgreen 0%, black 100%);
+    color: azure;
+    font-size: 30px;
+}
+
+.body2{
+    background-color: darkorchid;
+    background-image: linear-gradient(200deg, darkorchid, coral);
+    font-size: 30px;
+}
