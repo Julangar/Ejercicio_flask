@@ -1,5 +1,5 @@
 <html>
-    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <link href="{{ url_for('static', filename='css/estiloJulio.css') }}" rel="stylesheet" type="text/css">
     <body class="body2">
     <h1>
         Tecnologias
@@ -13,11 +13,11 @@
         </ul>
     </ol>
     <div align ="center">
-    <form action="Presentacion.html" class="boton">
+    <form action="{{ url_for('Presentacion') }}" class="boton">
         <input type="submit" value="Inicio" />
     </form>
     </div>
-    <img src="java.png" width="250" height="200"/>
-    <img src="python.jpg" width="450" height="200" align =""/>
+    <img src="{{ url_for('static', filename='imagenes/java.png') }}" width="250" height="200"/>
+    <img src="{{ url_for('static', filename='imagenes/python.jpg') }}" width="450" height="200" align =""/>
 </body>
 </html>

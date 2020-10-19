@@ -2,13 +2,13 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="Estilos/estilo.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estiloMiguel.css') }}">
 	<title>PAG PRINCIPAL</title>
 </head>
 <body id="body1">
 	<header>
 		<div align="center">
-			<img src="imgs/foto_miguel.jpeg" class="image" alt="foto de perfil" height="336" width="260">
+			<img src="{{ url_for('static', filename='imagenes/foto_miguel.jpeg') }}" class="image" alt="foto de perfil" height="336" width="260">
 			
 		</div>
 		
@@ -20,20 +20,23 @@
 	
 	<ul id="button" align="center">
 		<li>
-			<a href="pg2.html">Informacion personal</a>
+			<a href="{{ url_for('Pg2') }}">Informacion personal</a>
 		</li>			
 	</ul>
 	<br/>
 	<ul id="button" align="center">
 		<li>
-			<a href="pg3.html">Datos personales</a>	
+			<a href="{{ url_for('Pg3') }}">Datos personales</a>	
 		</li>
 	</ul>	
 	<br/>
 	<ul id="button" align="center">
 		<li>
-			<a href="pg4.html">Tecnologias</a>	
+			<a href="{{ url_for('Pg4') }}">Tecnologias</a>	
 		</li>
 	</ul>	
+	<ul>
+		<li><a href="{{ url_for('Menu') }}">Menu</a></li>
+	</ul>
 </body>
 </html>

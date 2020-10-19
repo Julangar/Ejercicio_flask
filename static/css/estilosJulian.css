@@ -1,0 +1,29 @@
+body {
+    font-size: 1.5em;
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: red;
+    font-style: oblique;
+}
+
+hr{
+    font-weight: bold;
+}
+
+h2{
+    font-style: initial;
+}
+
+h3{
+    color: darkred;
+}
+
+p{
+    font-style: inherit;
+}
+
+li{
+    font-style: italic;
+}

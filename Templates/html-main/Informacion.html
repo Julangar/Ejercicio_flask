@@ -1,5 +1,5 @@
 <html>
-    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <link href="{{ url_for('static', filename='css/estiloJulio.css') }}" rel="stylesheet" type="text/css">
     <body class="body2">
     <div align="center"><h1>
         Informacion
@@ -10,7 +10,7 @@
         <li>Trabajo actual: Vendedor de hortalizas</li> 
         <li>Mascotas 1:</li>
         <div align="center">
-        <video src="legna.mp4" widht="450" height="600" controls poster="vistaprevia.jpg">
+        <video src="{{ url_for('static', filename='imagenes/legna.mp4') }}" widht="450" height="600" controls poster="vistaprevia.jpg">
             
         </video>
         <p>
@@ -18,7 +18,7 @@
         </p> 
     
     <body>
-        <form action="Presentacion.html" class="boton">
+        <form action="{{ url_for('Presentacion') }}" class="boton">
             <input type="submit" value="Inicio" />
     </form>
     </body>

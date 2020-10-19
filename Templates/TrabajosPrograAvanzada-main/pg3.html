@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="Estilos/estilo.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estiloMiguel.css') }}">
 	<title>DATOS PERSONALES</title>
 </head>
 <body id="body3">
@@ -25,7 +25,7 @@
 
 	<ul id="button" align="center">
 		<li>
-			<a href="index.html">home</a>
+			<a href="{{ url_for('Index') }}">home</a>
 		</li>			
 	</ul>
 </body>
