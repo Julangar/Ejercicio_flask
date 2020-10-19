@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Datos Basicos</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/estilosJulian.css') }}">
+    </head>
+    <body>
+        <h1>Datos basicos</h1>
+        <hr>
+        <h3>Edad: 21</h3>
+        <h3>Pasatiempos: </h3>
+        <ul>
+            <li>Escuchar musica</li>
+            <li>Tocar guitarra</li>
+            <li>Jugar videojuegos</li>
+            <li>Ver anime</li>
+        </ul>
+        <h3>Comidas favoritas:</h3>
+        <ul>
+            <li>Pasta</li>
+            <li>Pizza</li>
+            <li>Arroz con pollo</li>
+        </ul>
+        <ul>
+            <li><a href="{{ url_for('Inicio') }}">Inicio</a></li>
+            <li><a href="{{ url_for('Formacion') }}">Formación academica</a></li>
+            <li><a href="{{ url_for('Tecnologias') }}">Tecnologias de interes</a></li>
+        </ul>  
+    </body>
+</html>

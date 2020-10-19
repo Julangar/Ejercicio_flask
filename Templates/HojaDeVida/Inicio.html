@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/estilosJulian.css') }}">
+    </head>
+    <body>
+        <h1>Julián Andrés García Guerrero</h1>
+        <hr>
+        <p>Foto:</p>
+        <img src="{{ url_for('static', filename='imagenes/julian.jpg') }}" alt="imagen de perfil" width="200" height="200">
+        <h2>Estudiante de Ingenieria de Sistemas</h2> 
+        <h2>Universidad Distrital Francisco Jose de Caldas</h2>
+        <h2>Código: 20171020011</h2>
+        <ul>
+            <li><a href="{{ url_for('DBasicos') }}">Datos basicos</a></li>
+            <li><a href="{{ url_for('Formacion') }}">Formación academica</a></li>
+            <li><a href="{{ url_for('Tecnologias') }}">Tecnologias de interes</a></li> 
+        </ul>
+        <ul>
+            <li><a href="{{ url_for('Menu') }}">Menu</a></li>
+        </ul>
+    </body>
+</html>

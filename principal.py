@@ -7,19 +7,19 @@ def Menu():
 
 @app.route("/Julian")
 def Inicio():
-   return render_template("Hoja_de_vida/Inicio.html")
+   return render_template("HojaDeVida/Inicio.html")
 
 @app.route("/DatosJulian")
 def DBasicos():
-   return render_template("Hoja_de_vida/DatosBasicos.html")
+   return render_template("HojaDeVida/DatosBasicos.html")
 
 @app.route("/FormacionJulian")
 def Formacion():
-   return render_template("Hoja_de_vida/FormacionAcademica.html")
+   return render_template("HojaDeVida/FormacionAcademica.html")
 
 @app.route("/TecnologiasJulian")
 def Tecnologias():
-   return render_template("Hoja_de_vida/TecnologiasDeInteres.html")
+   return render_template("HojaDeVida/TecnologiasDeInteres.html")
 
 @app.route("/Julio")
 def Presentacion():

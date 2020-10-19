@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tecnologias de interes</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/estilosJulian.css') }}">
+    </head>
+    <body>
+        <h1>Tecnologias de interes</h1>
+        <hr>
+        <p>Estoy interesado en aprender sobre:</p>
+        <ul>
+            <li>Inteligencia artificial</li>
+            <li>Creación de videojuegos</li>
+            <li>Software libre</li>
+        </ul> 
+        <ul>
+            <li><a href="{{ url_for('Inicio') }}">Inicio</a></li>
+            <li><a href="{{ url_for('DBasicos') }}">Datos basicos</a></li>
+            <li><a href="{{ url_for('Formacion') }}">Formación academica</a></li>            
+        </ul> 
+    </body>
+</html>
